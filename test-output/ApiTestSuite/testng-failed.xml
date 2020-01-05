@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ApiTestSuite]">
+  <listeners>
+    <listener class-name="net.kitty.lesson.helloapi.report.TestListner"/>
+  </listeners>
+  <test name="Javamall">
+    <classes>
+      <class name="net.kitty.lesson.helloapi.lesson2019.Day2_5_PropGenerator"/>
+      <class name="net.kitty.lesson.helloapi.lesson2019.Day2_5_PropConsumer"/>
+    </classes>
+  </test> <!-- Javamall -->
+</suite> <!-- Failed suite [ApiTestSuite] -->

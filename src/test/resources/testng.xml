@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Suite对应测试套件,一个Suite可以有多个Test -->
+<suite name="ApiTestSuite">
+   <!-- 配置监听器实现测试报告的生成,报告路径在report中配置 -->
+	<listeners>
+		<listener
+			class-name="net.kitty.lesson.helloapi.report.TestListner" />
+	</listeners>
+	<!-- Test对应一个测试用例,里面可包含多个测试Class -->
+	<test name="Javamall">
+		<classes>
+			<class name="net.kitty.lesson.helloapi.lesson2019.Day2_5_PropGenerator" />
+	    	<class name="net.kitty.lesson.helloapi.lesson2019.Day2_5_PropConsumer" />
+		</classes>
+	</test>
+</suite>
